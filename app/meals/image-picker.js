@@ -34,7 +34,7 @@ export default function ImagePicker({ label, name }) {
           {!pickedImage && <p>No image picked yet.</p>}
         </div>
         <input
-          className={classes.input}
+          className={cssClasses.input}
           type="file"
           id={name}
           accept="image/png, image/jpeg"
